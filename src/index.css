@@ -1,0 +1,32 @@
+.card {
+  height: 100%;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
+
+.platform-icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.platform-icon.playstation {
+  background-image: url("https://img.icons8.com/color/48/000000/play-station.png");
+}
+
+.platform-icon.xbox {
+  background-image: url("https://img.icons8.com/color/48/000000/xbox.png");
+}
+
+.platform-icon.nintendo {
+  background-image: url("https://img.icons8.com/color/48/000000/nintendo-switch.png");
+}
+
+.platform-icon.pc {
+  background-image: url("https://img.icons8.com/color/48/000000/steam.png");
+}
